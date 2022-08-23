@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x288e76fc06359a759ee9947aec107609aa1d60fe",
+  "SCAN_LINK": "https://etherscan.io/address/0x288e76fc06359a759ee9947aec107609aa1d60fe",
+  "NETWORK": {
+    "NAME": "Ethereum",
+    "SYMBOL": "ETH",
+    "ID": 1
+  },
+  "NFT_NAME": "MetaLamboz",
+  "SYMBOL": "LAMBO",
+  "MAX_SUPPLY": 420,
+  "WEI_COST": 0,
+  "DISPLAY_COST": 0,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opensea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/metalamboz",
+  "SHOW_BACKGROUND": true
+}
