@@ -553,21 +553,9 @@ function App() {
                                 >
 
                                     1 FREE lambo mint per whitelisted wallet.<br/>
-                                    &lt; {whitelistStatus} &gt;<br/>
-                                    {whitelistAddr}<br/><br/>
 
                                 </s.TextTitle>
                                 <s.SpacerXSmall />
-                                <s.TextDescription
-                                    style={{
-                                        textAlign: "center",
-                                        color: "var(--accent-text)",
-                                        fontFamily: "customfont",
-                                    }}
-                                >
-
-
-                                </s.TextDescription>
                                 <s.SpacerSmall />
                                 {blockchain.account === "" ||
                                     blockchain.smartContract === null ? (
@@ -589,7 +577,6 @@ function App() {
                                                     e.preventDefault();
                                                     dispatch(connect());
                                                     getData();
-                                                    updateWhitelist();
                                                 }}
                                             > Connect
                                                 <br />
