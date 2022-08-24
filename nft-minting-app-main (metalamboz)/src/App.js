@@ -689,7 +689,7 @@ function App() {
                     >
 
 
-                        {/* <br />
+                        <br />
                         <br />
                         <a target="_blank" href={CONFIG.MARKETPLACE_LINK}>
                             <LogoButtonImg src="/config/images/OS_LOGO.png" />
@@ -701,7 +701,7 @@ function App() {
                             <LogoButtonImg src="/config/images/SCAN_LOGO.png" />
                         </a>
                         <br />
-                        <br /> */}
+                        <br />
                         <a style={{
                             display: "flex",
                             justifyContent: "left",
