@@ -611,11 +611,13 @@ function App() {
                                                 fontFamily: "customfont",
                                             }}
                                         >
-                                            {feedback}
+                                            {feedback}<br/>
+                                            Max 1 lambo mint per wallet
                                         </s.TextDescription>
-                                        <s.SpacerMedium />
 
-                                        <s.Container ai={"center"} jc={"center"} fd={"row"}>
+                                        <s.SpacerSmall />
+
+                                        {/* <s.Container ai={"center"} jc={"center"} fd={"row"}>
                                             <StyledButton
                                                 disabled={claimingNft ? 1 : 0}
                                                 onClick={(e) => {
@@ -626,9 +628,7 @@ function App() {
                                             >
                                                 {claimingNft ? "PROCESSING" : "PUBLIC MINT (1)"}
                                             </StyledButton>
-                                        </s.Container>
-
-                                        <s.SpacerSmall />
+                                        </s.Container> */}
 
                                         <s.Container ai={"center"} jc={"center"} fd={"row"}>
                                             <StyledButton
