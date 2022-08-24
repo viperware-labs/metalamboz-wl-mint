@@ -454,36 +454,6 @@ function App() {
 
                         </s.TextDescription>
 
-                        <s.TextDescription
-
-                            style={{
-                                textAlign: "center",
-                                color: "white",
-                                fontWeight: "normal",
-                                fontFamily: "customfont",
-                                fontSize: "20px",
-                                width: "100%"
-                            }}
-                        >
-                            &lt; {whitelistStatus} &gt;<br/>
-                            {whitelistAddr}<br/><br/>
-
-                            <StyledButton
-                                style={{
-                                    fontWeight: "normal",
-                                    fontFamily: "customfont"
-                                }}
-                                onClick={(e) => {
-                                    e.preventDefault();
-                                    dispatch(connect());
-                                    getData();
-                                    updateWhitelist();
-                                }}
-                            > Connect
-                                <br />
-
-                            </StyledButton>
-                        </s.TextDescription>
                     </div>
                 </div>
 
@@ -584,6 +554,8 @@ function App() {
                                 >
 
                                     1 FREE lambo mint per whitelisted wallet.
+                                    &lt; {whitelistStatus} &gt;<br/>
+                                    {whitelistAddr}<br/><br/>
 
                                 </s.TextTitle>
                                 <s.SpacerXSmall />
@@ -618,6 +590,7 @@ function App() {
                                                 e.preventDefault();
                                                 dispatch(connect());
                                                 getData();
+                                                updateWhitelist();
                                             }}
                                         > Connect
                                             <br />
