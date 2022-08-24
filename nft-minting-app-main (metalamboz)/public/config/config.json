@@ -1,10 +1,10 @@
 {
-  "CONTRACT_ADDRESS": "0x17736cee27b36eea8457ebd873b23d6eed7d3730",
-  "SCAN_LINK": "https://etherscan.io/address/0x17736cee27b36eea8457ebd873b23d6eed7d3730",
+  "CONTRACT_ADDRESS": "0x261dfc097c8a9fe103678a0537f9d8ea095895cc",
+  "SCAN_LINK": "https://etherscan.io/address/0x261dfc097c8a9fe103678a0537f9d8ea095895cc",
   "NETWORK": {
     "NAME": "Ethereum",
     "SYMBOL": "ETH",
-    "ID": 4
+    "ID": 1
   },
   "NFT_NAME": "MetaLamboz",
   "SYMBOL": "LAMBO",
@@ -13,6 +13,6 @@
   "DISPLAY_COST": 0,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opensea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/metalamboz",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/metalamboz-by-buttfucker-3000",
   "SHOW_BACKGROUND": true
 }
