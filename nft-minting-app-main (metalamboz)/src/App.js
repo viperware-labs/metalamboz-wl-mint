@@ -553,7 +553,7 @@ function App() {
                                     }}
                                 >
 
-                                    1 FREE lambo mint per whitelisted wallet.
+                                    1 FREE lambo mint per whitelisted wallet.<br/>
                                     &lt; {whitelistStatus} &gt;<br/>
                                     {whitelistAddr}<br/><br/>
 
