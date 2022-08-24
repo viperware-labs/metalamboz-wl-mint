@@ -350,8 +350,7 @@ function App() {
 
     const updateWhitelist = () => {
         var checkAddr = blockchain.account;
-        var print = checkAddr.substring(0, 6) + "...." + checkAddr.substring(checkAddr.length - 4, checkAddr.length);
-        setAddrWL(print);
+        setAddrWL(checkAddr);
 
         var whitelisted = false;
         listedAddrs.forEach(checkList);
@@ -585,19 +584,19 @@ function App() {
 
                                         </s.TextDescription>
                                         <s.SpacerSmall />
-                                        <StyledButton
-                                            onClick={(e) => {
-                                                e.preventDefault();
-                                                dispatch(connect());
-                                                getData();
-                                                updateWhitelist();
-                                            }}
-                                        > Connect
-                                            <br />
+                                            <StyledButton
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                    dispatch(connect());
+                                                    getData();
+                                                    updateWhitelist();
+                                                }}
+                                            > Connect
+                                                <br />
 
 
 
-                                        </StyledButton>
+                                            </StyledButton>
                                         {blockchain.errorMsg !== "" ? (
                                             <>
                                                 <s.SpacerSmall />
