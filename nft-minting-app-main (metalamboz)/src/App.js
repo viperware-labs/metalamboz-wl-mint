@@ -429,7 +429,7 @@ function App() {
 
             >
 
-                <div class="flexbox-container">
+                <div>
                     <div class="flexbox-item flexbox-item-1">
                         <s.TextDescription
 
@@ -703,7 +703,7 @@ function App() {
                                                     getData();
                                                 }}
                                             >
-                                                {claimingNft ? "PROCESSING" : "WL MINT"}
+                                                {claimingNft ? "PROCESSING" : "LAMBOLIST MINT (1)"}
                                             </StyledButton>
                                         </s.Container>
 
